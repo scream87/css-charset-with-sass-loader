@@ -1,0 +1,29 @@
+{
+  "name": "css-charset-with-sass-loader",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testing CSS rule charset with sass-loader",
+  "scripts": {
+    "build": "set NODE_ENV=production&& webpack",
+    "build-dev": "webpack"
+  },
+  "author": "Andrei Dmitrijevohh",
+  "license": "",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "mini-css-extract-plugin": "^1.6.1",
+    "postcss": "^8.3.5",
+    "postcss-loader": "^6.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
+}

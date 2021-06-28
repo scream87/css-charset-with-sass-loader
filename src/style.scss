@@ -1,0 +1,5 @@
+/*!  Force output of above line by adding a unicode character. ♫ */
+.hello-world:after {
+   content: "привет мир"; // also forcing output charset rule
+   display: block;
+ }

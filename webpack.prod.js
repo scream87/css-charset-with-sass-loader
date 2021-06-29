@@ -1,6 +1,6 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const mode = "development";
-const target = "web";
+const mode = "production";
+const target = "browserslist";
 
 module.exports = {
   mode: mode,
